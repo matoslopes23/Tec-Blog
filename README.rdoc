@@ -1,0 +1,2 @@
+Essa é so a parte frontend deste site, fiz em um curso, para treinar minhas abilidades 
+com os conhecimentos básicos do desenvolvimento <i class="fa fa-weibo" aria-hidden="true"></i>

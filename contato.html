@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contato</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body class="contato">
+	<div id="area-cabecalho">
+		<div id="area-logo">
+			<h1>Info<span class="branco">Blog</span></h1>
+		</div>
+		<div id="area-menu">
+			<a id="Home" href="index.html">Home</a>
+			<a id="jogos" href="jogos.html">Jogos</a>
+			<a id="celular" href="celulares.html">Celulares</a>
+			<a id="informatica" href="informatica.html">Informática</a>
+			<a id="eletronicos" href="eletronicos.html">Eletrônicos</a>
+			<a id="contatos" href="contato.html">Contato</a>
+			
+		</div>
+		
+	</div>
+	<section class="content">
+		<div id="contato">
+			<h3>Formulario de cadastro</h3>
+			<form class="forme" methode="POST" action="./email.php">
+				<input class="field" name="nome" placeholder="Nome">
+
+				<input class="field" name="email" placeholder="E-mail">
+				<label>Digite sua mensagem</label>
+				<textarea class="field" name="message" placeholder="Digite uma Mensagem">
+					
+				</textarea>
+				<input class="button" type="submit" value="Enviar">
+			</form>
+		</div>
+	</section>
+</body>
+</html>
